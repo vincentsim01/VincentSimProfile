@@ -1,0 +1,54 @@
+#theNav{
+
+    padding-left:15px;
+}
+
+.naving{
+    padding-left:25px;
+}
+
+#theHeader{
+    text-align: center;
+    font-family: inherit;
+}
+
+.headerText{
+    font-family: inherit;
+    font-size:xx-large;
+}
+
+span{
+    font-family: inherit;
+}
+
+body{
+    padding:15px;
+}
+
+#theProfileImage{
+    border-radius: 10px;
+    border:1px solid lightblue;
+}
+#theProfileImageContainer{
+    width:30%;
+    display:inline-block;
+    padding-left: 30px;
+}
+
+#theProfileTextContainer{
+    text-align: center;
+    width:60%;
+    vertical-align:top;
+    display:inline-block;
+    font-family: inherit;
+
+}
+
+#home{
+    border: 1px solid;
+    padding:14px;
+}
+
+.homeText{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
