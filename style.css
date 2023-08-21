@@ -71,8 +71,20 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#SocialMedia{
+#socialMedia{
     border:solid 1px black;
     padding:15px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: right;
+}
+
+.socmed{
+    width:20px;
+    align-items: end;
+}
+
+#socialMediaTable{
+    text-align: right;
+    margin-left: 90%;
+    align-items: end;
 }
