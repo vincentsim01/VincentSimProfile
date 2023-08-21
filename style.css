@@ -13,7 +13,7 @@
 }
 
 .headerText{
-    font-family: inherit;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:xx-large;
 }
 
@@ -23,6 +23,7 @@ span{
 
 body{
     padding:15px;
+    font-family: inherit;
 }
 
 #theProfileImage{
@@ -50,5 +51,28 @@ body{
 }
 
 .homeText{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.naving{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#aboutMe{
+    border:solid 1px black;
+    padding:15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#skillSet{
+    border:solid 1px black;
+    padding:15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#SocialMedia{
+    border:solid 1px black;
+    padding:15px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
