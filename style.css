@@ -3,9 +3,15 @@
     padding-left:15px;
 }
 
+
 .naving{
     padding-left:25px;
 }
+
+.naving:hover{
+    font-size: large;
+}
+
 
 #theHeader{
     text-align: center;
@@ -45,6 +51,31 @@ body{
 
 }
 
+#photoChange{
+    border-radius: 10px;
+    background-color: #3ecf65;
+    cursor:pointer;
+}
+
+
+
+.noImage{
+    animation-name:BlurryImage;
+    animation-duration: 1000ms;
+
+}
+
+.newImage{
+    animation-name:ClearyImage;
+    animation-duration: 1000ms;
+    border: 5px solid;
+}
+
+#photoChange:hover{
+    box-shadow: black;
+    background-color: green;
+}
+
 #home{
     border: 1px solid;
     padding:14px;
@@ -61,8 +92,12 @@ body{
 
 #aboutMe{
     border:solid 1px black;
-    padding:15px;
+    padding:25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#paragraphAboutMe{
+    padding-left: 30px;
 }
 
 #skillSet{
@@ -87,4 +122,85 @@ body{
     text-align: right;
     margin-left: 90%;
     align-items: end;
+}
+
+.SkillBar{
+    background-color: green;
+    display:inline-block;
+    width:60%;
+    height:30px;
+    margin:10px;
+    text-align: center;
+    vertical-align: middle;
+    color: azure;
+}
+
+
+#portfolio{
+    border:solid 1px black;
+    padding:30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#wordPressPortfolio img{
+    width:500px;
+
+}
+
+.thePortfolio{
+    padding-left:30px;
+}
+
+img{
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+@keyframes BlurryImage{
+    0%{
+        filter: blur(0px);
+    }
+    30%{
+        filter: blur(15px);
+    }
+    50%{
+        filter:blur(40px);
+    }
+    70%{
+        filter:blur(70px);
+    }
+    90%{
+        filter:blur(90px);
+    }
+    100%{
+        filter:blur(100px);
+    }
+}
+
+@keyframes ClearyImage{
+    0%{
+        filter: blur(100px);
+    }
+    30%{
+        filter: blur(90px);
+    }
+    50%{
+        filter:blur(70px);
+    }
+    70%{
+        filter:blur(40px);
+    }
+    90%{
+        filter:blur(20px);
+    }
+    100%{
+        filter:blur(0px);
+    }
 }

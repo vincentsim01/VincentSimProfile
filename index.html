@@ -16,7 +16,9 @@
         <span class="naving"><a href="#home">Home</a></span>
         <span class="naving"><a href="#aboutMe">About Me</a></span>
         <span class="naving"><a href="#skillSet">Skills</a></span>
+        <span class="naving"><a href="#portfolio">Portfolio</a></span>
         <span class="naving"><a href="#socialMedia">Let's Connect</a></span>
+        
     </nav></center>
     </div>
 
@@ -28,33 +30,59 @@
         <div id="theProfileImageContainer" width="30%"><img src="./Image/Normal.jpg" alt="Vincent Sim" width="250px" id="theProfileImage"></div>
         <div id="theProfileTextContainer">
             <h1 class="homeText">Hi, I'm Vincent!</h1>
-            <h2 class="homeText">I'm a Software Engineer.
+            <h2 class="homeText">I am a website magician.
                 <br>
-                I can do any project work with speed and accuracy. 
+                Let Me Show You My Magic. 
             </h2>
+            <button id="photoChange">Abra Kadabra</button>
+            <div id="afterImageChange"></div>
+
         </div>
     </div>
 
     <div id="aboutMe">
 
         <details>
-            <summary>About Myself</summary>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eveniet nulla saepe cupiditate soluta atque? Iste labore nostrum eveniet ratione illum, reprehenderit consectetur neque impedit, doloribus aliquam animi culpa iusto!</p>
+            <summary><h2>About Myself</h2></summary>
+            <p id="paragraphAboutMe">Vincent Sim is a future software developer based in Singapore. Previously he was a digital marketer and currently working as math teacher. He also made travel videos for his youtube channel</p>
         </details>
 
     </div>
 
     <div id="skillSet">
-        My skills are:
+        <h2>My skills are:</h2>
         <ul class="skillOl">
-            <li>Digital Marketing</li>
-            <li>Photo Editing</li>
-            <li>Video Editing</li>
+            <li><div class="SkillBar">Digital Marketing</div></li>
+            <li><div class="SkillBar">SEO</div></li>
+            <li><div class="SkillBar">Photo Editing</div></li>
+            <li><div class="SkillBar">Video Editing</div></li>
+            <li><div class="SkillBar">Mathematics</div></li>
+            <li><div class="SkillBar">Website Design</div></li>
+            <li><div class="SkillBar">Wordpress</div></li>
         </ul>
     </div>
 
+    <div id="portfolio">
+        <h2>My Portfolio:</h2>
+        <div id="youtubePortfolio" class="thePortfolio">
+            <h3>Youtube</h3>
+            <iframe width="224px" height="128px" src="https://www.youtube.com/embed/j8NbYWncjbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="DMPortfolio" class="thePortfolio">
+            <h3>Digital Marketing</h3>
+            <img src="./Image/GoogleAds.png" width="224px"></img>
+            <img src="./Image/FB Ads.png" width="224px"></img>
+            <img src="./Image/Creative.png" width="224px"></img>
+        </div>
+        <div id="wordPressPortfolio" class="thePortfolio">
+            <h3>Wordpress</h3>
+            <img src="./Image/SantosaMakmur.png" width="224px"></img>
+        </div>
+
+    </div>
+
     <div id="socialMedia">
-        Connect With Me:
+        <h2>Connect With Me:</h2>
         <table class="socialMediaTable" id="socialMediaTable">
             <tr class="socMedTableRow">
                 <td><a href="https://www.linkedin.com/in/vincent-simon/" target="_blank"><img src="./Image/LinkedIn.png" alt="LinkedIn" class="socmed"></a></td>
