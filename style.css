@@ -94,6 +94,41 @@ body{
     border:solid 1px black;
     padding:25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height:300px;
+}
+
+#aboutMeDetails{
+    width:40%;
+    display:inline-block;
+    margin-right:30px;
+}
+
+#aboutMePicture{
+    border-radius: 10px;
+    width:40%;
+    display: inline-block;
+}
+
+#aboutMePictureButton{
+    border-radius: 10px;
+}
+
+#aboutMePictureButton:hover{
+    box-shadow: black;
+    background-color: green;
+
+}
+
+#theAboutMePicture{
+    border: 1px solid black;
+
+}
+
+#theAboutMePicture:hover{
+    animation-name:AboutImage;
+    animation-duration: 2000ms;
+
+
 }
 
 #paragraphAboutMe{
@@ -203,4 +238,17 @@ img{
     100%{
         filter:blur(0px);
     }
+}
+
+@keyframes AboutImage{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
 }
