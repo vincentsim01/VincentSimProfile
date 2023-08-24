@@ -101,6 +101,7 @@ body{
     width:40%;
     display:inline-block;
     margin-right:30px;
+    vertical-align: top;
 }
 
 #aboutMePicture{
@@ -170,21 +171,38 @@ body{
     color: azure;
 }
 
+.SkillBar:hover{
+    transform: scale(1.2) rotate(-3deg);
+
+}
+
 
 #portfolio{
     border:solid 1px black;
-    padding:30px;
+   
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height:500px;
+    text-align: center;
 
 }
 
-#wordPressPortfolio img{
-    width:500px;
-
+#portfolio img{
+    width:200px;
 }
+
 
 .thePortfolio{
-    padding-left:30px;
+    margin-left:10px;
+    margin-right:10px;
+    border:1px solid black;
+    width:350px;
+    height:200px;
+    display:inline-block;
+}
+
+.thePortfolio:hover{
+    font-size: larger;
+    transform: scale(1.1);
 }
 
 img{

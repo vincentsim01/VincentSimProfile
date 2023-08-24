@@ -8,7 +8,7 @@ changeImageButton.addEventListener("click",function(){
 
     var image=document.getElementById("theProfileImage");
     image.classList.add("newImage");
-    image.src=image.src.replace("Normal.jpg","Suit.jpg");
+    image.src=image.src.replace("Normal.jpg","mickey.jpg");
 
     setTimeout(removeImage,5000);
 
@@ -40,7 +40,7 @@ function removeImage(){
 
 
     var image=document.getElementById("theProfileImage");
-    image.src=image.src.replace("Suit.jpg","Normal.jpg");
+    image.src=image.src.replace("mickey.jpg","Normal.jpg");
     image.classList.remove("newImage");
 
 
