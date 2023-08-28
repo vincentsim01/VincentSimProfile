@@ -75,7 +75,29 @@ aboutMePictureButton.addEventListener("click",function(){
 });
 
 
+var googleadsicon=document.getElementById("googleadsicon");
+var therightSkillSetContainer=document.getElementById("therightSkillSetContainer");
+var theleftSkillSet=document.getElementById("theleftSkillSet");
 
-// aboutMePicture.addEventListener("click",function(){
+theleftSkillSet.addEventListener("mouseover",showskillright);
+
+var SkillBar = document.getElementsByClassName("SkillBar");
+
+var skillOl=document.getElementsByClassName("skillOl");
+
+
+SkillBar.addEventListener("mouseover",alerting);
+
+skillOl.addEventListener("mouseover",alerting);
+
+
+function showskillright(){
+    therightSkillSetContainer.classList.remove("none");
+}
+
+
+function alerting(){
+    alert("why not working!!!!!!!!!!!!!!!!");
+}
 
 
