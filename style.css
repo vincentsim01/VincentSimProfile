@@ -176,6 +176,21 @@ body{
 
 }
 
+.SkillBar img{
+    width:10%;
+    border: 1px solid black;
+}
+
+.SkillBar span{
+    width:20%;
+    border: 1px solid black;
+
+}
+
+#fbadsicon{
+    background-color: white;
+}
+
 
 #portfolio{
     border:solid 1px black;

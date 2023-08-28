@@ -36,7 +36,7 @@ secondMagicButton.addEventListener("click", alert("secondMagicButton")
 
 function removeImage(){
 
-    alert("ZAP. Grand Wizard Merlin Does Not Like This Picture!");
+    alert("ZAP. Walt Disney said this image is copyrighted!");
 
 
     var image=document.getElementById("theProfileImage");
