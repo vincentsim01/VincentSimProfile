@@ -79,21 +79,107 @@ var googleadsicon=document.getElementById("googleadsicon");
 var therightSkillSetContainer=document.getElementById("therightSkillSetContainer");
 var theleftSkillSet=document.getElementById("theleftSkillSet");
 
-theleftSkillSet.addEventListener("mouseover",showskillright);
-
-var SkillBar = document.getElementsByClassName("SkillBar");
-
 var skillOl=document.getElementsByClassName("skillOl");
+// theleftSkillSet.addEventListener("mouseover",showskillright);
+// theleftSkillSet.addEventListener("mouseout",notshowskillright);
 
 
-SkillBar.addEventListener("mouseover",alerting);
+var skillbar=document.querySelector(".SkillBar");
 
-skillOl.addEventListener("mouseover",alerting);
+// skillbar.addEventListener("click",alerting);
+// skillbar.addEventListener("mouseover",alerting);
 
 
-function showskillright(){
+
+// function showskillright(){
+//     therightSkillSetContainer.classList.remove("none");
+// }
+
+// function notshowskillright(){
+//     therightSkillSetContainer.classList.add("none");
+
+// }
+
+var skillzet=[
+    {name:"Digital Marketing",
+    description:"Vincent is a digital marketing specialist",
+    image:"Image/dm.jpg"}
+    ,
+    {name:"Google Ads",
+    description:"Vincent is a Google Ads specialist",
+    image:"Image/googleadsicon.png"}
+    ,
+    {name:"Facebook Ads",
+    description:"Vincent is a Facebook Ads specialist",
+    image:"Image/fbads.png"}
+    ,
+    {name:"SEO",
+    description:"Vincent is a SEO specialist",
+    image:"Image/seo.jpg"}
+];
+
+var healing=document.getElementById("healing");
+
+var therightskill=document.getElementById("therightSkill");
+
+//googleads
+
+var googleads=document.getElementById("googleads");
+googleads.addEventListener("mouseover", googleadsfunc);
+googleads.addEventListener("mouseout", googleadsfunc2);
+
+
+function googleadsfunc(){
+
     therightSkillSetContainer.classList.remove("none");
+    var textarray=skillzet[1].name;
+    healing.innerHTML=textarray;
 }
+
+function googleadsfunc2(){
+    therightSkillSetContainer.classList.add("none");
+};
+
+
+//fbads
+
+var fbads=document.getElementById("fbads");
+fbads.addEventListener("mouseover", fbadsfunc);
+fbads.addEventListener("mouseout", fbadsfunc2);
+
+
+function fbadsfunc(){
+
+    therightSkillSetContainer.classList.remove("none");
+    var textarray=skillzet[2].name;
+    healing.innerHTML=textarray;
+}
+
+function fbadsfunc2(){
+    therightSkillSetContainer.classList.add("none");
+};
+
+//seo
+
+var fbads=document.getElementById("seo");
+seo.addEventListener("mouseover", seofunc);
+seo.addEventListener("mouseout", seofunc2);
+
+
+function seofunc(){
+
+    therightSkillSetContainer.classList.remove("none");
+    var textarray=skillzet[3].name;
+    healing.innerHTML=textarray;
+}
+
+function seofunc2(){
+    therightSkillSetContainer.classList.add("none");
+};
+
+
+
+
 
 
 function alerting(){
