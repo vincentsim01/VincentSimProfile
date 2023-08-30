@@ -178,6 +178,7 @@ body{
 
 #therightSkillSetContainer{
     border:black 1px solid;
+    padding:10px;
 }
 
 .SkillBar{

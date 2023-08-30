@@ -116,11 +116,56 @@ var skillzet=[
     {name:"SEO",
     description:"Vincent is a SEO specialist",
     image:"Image/seo.jpg"}
+    ,
+    {name:"Photo Editing",
+    description:"Vincent is a Photo Editing specialist",
+    image:"Image/photoedit.jpg"}
+    ,
+    {name:"Video Editing",
+    description:"Vincent is a Video Editing specialist",
+    image:"Image/photoedit.jpg"}
+    ,
+    {name:"Math",
+    description:"Vincent is a Math specialist",
+    image:"Image/math.png"}
+    ,
+    {name:"Website Editing",
+    description:"Vincent is a Website Editing specialist",
+    image:"Image/www.png"}
+    ,
+    {name:"Wordpress",
+    description:"Vincent is a Wordpress specialist",
+    image:"Image/Wordpress.png"}
+
 ];
 
 var healing=document.getElementById("healing");
 
 var therightskill=document.getElementById("therightSkill");
+
+var gambar=document.getElementById("gambar");
+var deskripsi=document.getElementById("deskripsi");
+
+//dm
+
+var dm=document.getElementById("dm");
+dm.addEventListener("mouseover", dmfunc);
+dm.addEventListener("mouseout", dmfunc2);
+
+
+function dmfunc(){
+
+    therightSkillSetContainer.classList.remove("none");
+    var textarray=skillzet[0].name;
+    healing.innerHTML=textarray;
+    gambar.innerHTML=`<img src="${skillzet[0].image}" width="20%"></img>`;
+    deskripsi.innerHTML=skillzet[0].description;
+}
+
+function dmfunc2(){
+    therightSkillSetContainer.classList.add("none");
+};
+
 
 //googleads
 
@@ -134,6 +179,8 @@ function googleadsfunc(){
     therightSkillSetContainer.classList.remove("none");
     var textarray=skillzet[1].name;
     healing.innerHTML=textarray;
+    gambar.innerHTML=`<img src="${skillzet[1].image}" width="20%"></img>`;
+    deskripsi.innerHTML=skillzet[1].description;
 }
 
 function googleadsfunc2(){
@@ -153,6 +200,8 @@ function fbadsfunc(){
     therightSkillSetContainer.classList.remove("none");
     var textarray=skillzet[2].name;
     healing.innerHTML=textarray;
+    gambar.innerHTML=`<img src="${skillzet[2].image}" width="20%"></img>`;
+    deskripsi.innerHTML=skillzet[2].description;
 }
 
 function fbadsfunc2(){
@@ -171,12 +220,115 @@ function seofunc(){
     therightSkillSetContainer.classList.remove("none");
     var textarray=skillzet[3].name;
     healing.innerHTML=textarray;
+    gambar.innerHTML=`<img src="${skillzet[3].image}" width="20%"></img>`;
+    deskripsi.innerHTML=skillzet[3].description;
 }
 
 function seofunc2(){
     therightSkillSetContainer.classList.add("none");
 };
 
+//photoedit
+
+var photoedit=document.getElementById("photoedit");
+photoedit.addEventListener("mouseover", photoeditfunc);
+photoedit.addEventListener("mouseout", photoeditfunc2);
+
+
+function photoeditfunc(){
+
+    therightSkillSetContainer.classList.remove("none");
+    var textarray=skillzet[4].name;
+    healing.innerHTML=textarray;
+    gambar.innerHTML=`<img src="${skillzet[4].image}" width="20%"></img>`;
+    deskripsi.innerHTML=skillzet[4].description;
+}
+
+function photoeditfunc2(){
+    therightSkillSetContainer.classList.add("none");
+};
+
+//videoedit
+
+var videoedit=document.getElementById("videoedit");
+videoedit.addEventListener("mouseover", videoeditfunc);
+videoedit.addEventListener("mouseout", videoeditfunc2);
+
+
+function videoeditfunc(){
+
+    therightSkillSetContainer.classList.remove("none");
+    var textarray=skillzet[5].name;
+    healing.innerHTML=textarray;
+    gambar.innerHTML=`<img src="${skillzet[5].image}" width="20%"></img>`;
+    deskripsi.innerHTML=skillzet5[5].description;
+}
+
+function videoeditfunc2(){
+    therightSkillSetContainer.classList.add("none");
+};
+
+
+//math
+
+var math=document.getElementById("math");
+math.addEventListener("mouseover", mathfunc);
+math.addEventListener("mouseout", mathfunc2);
+
+
+function mathfunc(){
+
+    therightSkillSetContainer.classList.remove("none");
+    var textarray=skillzet[6].name;
+    healing.innerHTML=textarray;
+    gambar.innerHTML=`<img src="${skillzet[6].image}" width="20%"></img>`;
+    deskripsi.innerHTML=skillzet5[6].description;
+}
+
+function mathfunc2(){
+    therightSkillSetContainer.classList.add("none");
+};
+
+//webdesign
+
+var webdesign=document.getElementById("webdesign");
+webdesign.addEventListener("mouseover", webdesignfunc);
+webdesign.addEventListener("mouseout", webdesignfunc2);
+
+
+function webdesignfunc(){
+
+    therightSkillSetContainer.classList.remove("none");
+    var textarray=skillzet[7].name;
+    healing.innerHTML=textarray;
+    gambar.innerHTML=`<img src="${skillzet[7].image}" width="20%"></img>`;
+    deskripsi.innerHTML=skillzet5[7].description;
+}
+
+function webdesignfunc2(){
+    therightSkillSetContainer.classList.add("none");
+};
+
+
+//wordpress
+
+var wordpress=document.getElementById("wordpress");
+wordpress.addEventListener("mouseover", wordpressfunc);
+wordpress.addEventListener("mouseout", wordpressfunc2);
+
+
+function wordpressfunc(){
+
+    therightSkillSetContainer.classList.remove("none");
+    var textarray=skillzet[8].name;
+    healing.innerHTML=textarray;
+    gambar.innerHTML=`<img src="${skillzet[8].image}" width="20%"></img>`;
+    deskripsi.innerHTML=skillzet5[8].description;
+}
+
+function wordpressfunc2(){
+    therightSkillSetContainer.classList.add("none");
+};
 
 
 
