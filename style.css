@@ -30,6 +30,8 @@ span{
 body{
     padding:15px;
     font-family: inherit;
+    box-sizing:border-box;
+    width:100%;
 }
 
 #theProfileImage{
@@ -79,6 +81,7 @@ body{
 #home{
     border: 1px solid;
     padding:14px;
+    box-sizing: border-box;
 }
 
 .homeText{
@@ -95,6 +98,7 @@ body{
     padding:25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     height:300px;
+    box-sizing:border-box;
 }
 
 #aboutMeDetails{
@@ -102,12 +106,14 @@ body{
     display:inline-block;
     margin-right:30px;
     vertical-align: top;
+    box-sizing: border-box;
 }
 
 #aboutMePicture{
     border-radius: 10px;
     width:40%;
     display: inline-block;
+    box-sizing: border-box;
 }
 
 #aboutMePictureButton{
@@ -122,6 +128,7 @@ body{
 
 #theAboutMePicture{
     border: 1px solid black;
+    width:250px;
 
 }
 
@@ -143,6 +150,7 @@ body{
     padding:15px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: right;
+    box-sizing: border-box;
 }
 
 .socmed{
@@ -152,8 +160,8 @@ body{
 
 #socialMediaTable{
     text-align: right;
-    margin-left: 90%;
-    align-items: end;
+    float:right;
+    
 }
 
 #skillSet{
@@ -161,6 +169,7 @@ body{
     padding:15px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     height:850px;
+    box-sizing: border-box;
 }
 
 #theleftSkillSet{
@@ -314,3 +323,125 @@ img{
     }
 
 }
+
+
+@media (max-width:400px){
+    #theNav{
+        display:none;
+    }
+
+    #aboutMe{
+        height:550px;
+    }
+
+
+
+    #aboutMeDetails{
+        width:85%;
+        font-size: small;
+    }
+
+
+    #aboutMePicture{
+        width:85%;
+    }
+
+    #theProfileImageContainer{
+        width:90%;
+        align-items: center;
+    }
+
+    #theProfileTextContainer{
+        text-align: center;
+        align-items: center;
+        width:90%;
+    }
+
+    #paragraphAboutMe{
+        width:90%;
+        align-items: center;
+        overflow:scroll;
+        height:100px;
+        border:2px dashed black
+        border-radius:5px;
+
+    }
+
+    #aboutMePicture button{
+        align-items: center;
+        text-align: center;
+   
+    }
+
+    #aboutMePictureButton{
+        align-items: center;
+        text-align: center;
+    }
+
+    #theAboutMePicture{
+        width:80%;
+    }
+
+    body{
+        padding:1px;
+    }
+
+    #theleftSkillSet{
+        width:100%;
+        margin:0px;
+    }
+
+    #therightSkillSet{
+        display:none;
+    }
+
+    #skillSet{
+        padding:3px;
+    }
+
+    .SkillBar{
+        width:70%;
+    }
+
+    #portfolio{
+        height:700px;
+    }
+
+    .thePortfolio{
+        width:75%;
+        display:block;
+    }
+
+    #FBPort{
+        display:none;
+    }
+
+    #socialMedia{
+        text-align: center;
+        padding:2px;
+    }
+
+    #socialMediaTable{
+        text-align: center;
+        float:none;
+
+    }
+
+
+
+}
+
+@media(min-width:411px){
+    #theNav{
+        display:block;
+    }
+
+
+
+
+
+
+}
+
+
+
