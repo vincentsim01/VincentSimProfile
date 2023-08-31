@@ -261,7 +261,7 @@ function videoeditfunc(){
     var textarray=skillzet[5].name;
     healing.innerHTML=textarray;
     gambar.innerHTML=`<img src="${skillzet[5].image}" width="20%"></img>`;
-    deskripsi.innerHTML=skillzet5[5].description;
+    deskripsi.innerHTML=skillzet[5].description;
 }
 
 function videoeditfunc2(){
@@ -282,7 +282,7 @@ function mathfunc(){
     var textarray=skillzet[6].name;
     healing.innerHTML=textarray;
     gambar.innerHTML=`<img src="${skillzet[6].image}" width="20%"></img>`;
-    deskripsi.innerHTML=skillzet5[6].description;
+    deskripsi.innerHTML=skillzet[6].description;
 }
 
 function mathfunc2(){
@@ -302,7 +302,7 @@ function webdesignfunc(){
     var textarray=skillzet[7].name;
     healing.innerHTML=textarray;
     gambar.innerHTML=`<img src="${skillzet[7].image}" width="20%"></img>`;
-    deskripsi.innerHTML=skillzet5[7].description;
+    deskripsi.innerHTML=skillzet[7].description;
 }
 
 function webdesignfunc2(){
@@ -323,7 +323,7 @@ function wordpressfunc(){
     var textarray=skillzet[8].name;
     healing.innerHTML=textarray;
     gambar.innerHTML=`<img src="${skillzet[8].image}" width="20%"></img>`;
-    deskripsi.innerHTML=skillzet5[8].description;
+    deskripsi.innerHTML=skillzet[8].description;
 }
 
 function wordpressfunc2(){
