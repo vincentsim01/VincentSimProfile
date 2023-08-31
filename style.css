@@ -21,7 +21,18 @@
 .headerText{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:xx-large;
+
+    
 }
+
+#texthead{
+
+
+    animation: rotatelife linear 3000ms infinite;
+
+}
+
+
 
 span{
     font-family: inherit;
@@ -97,7 +108,7 @@ body{
     border:solid 1px black;
     padding:25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    height:300px;
+    height:400px;
     box-sizing:border-box;
 }
 
@@ -151,6 +162,7 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: right;
     box-sizing: border-box;
+    height:200px;
 }
 
 .socmed{
@@ -161,6 +173,7 @@ body{
 #socialMediaTable{
     text-align: right;
     float:right;
+    align-items: right;
     
 }
 
@@ -185,9 +198,16 @@ body{
     height:80%;
 }
 
+
+
 #therightSkillSetContainer{
     border:black 1px solid;
-    padding:10px;
+    padding:30px;
+}
+
+#healing{
+    font-style: italic;
+    font-size: larger;
 }
 
 .SkillBar{
@@ -322,6 +342,24 @@ img{
         transform: rotate(360deg);
     }
 
+}
+
+@keyframes rotatelife{
+    0%{
+        transform:rotatey(0deg);
+    }
+    30%{
+        transform:rotatey(90deg);
+    }
+    60%{
+        transform:rotatey(180deg);
+    }
+    80%{
+        transform:rotatey(270deg);
+    }
+    100%{
+        transform:rotatey(360deg);
+    }
 }
 
 
