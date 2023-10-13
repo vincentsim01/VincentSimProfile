@@ -15,11 +15,11 @@
 
 #theHeader{
     text-align: center;
-    font-family: inherit;
+    font-family: 'Tilt Neon', sans-serif;
 }
 
 .headerText{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
     font-size:xx-large;
 
     
@@ -28,7 +28,15 @@
 #texthead{
 
 
-    animation: rotatelife linear 3000ms infinite;
+    animation: rotatelife linear 7000ms infinite;
+
+
+
+}
+
+#logoimage{
+    height:100px;
+
 
 }
 
