@@ -1,15 +1,24 @@
 #theNav{
 
     padding-left:15px;
+    font-family: 'Tilt Neon', sans-serif;
+    border:1px double black;
+    border-radius: 20px;
+    box-shadow: lightblue 3px 3px 3px;
+
 }
 
 
 .naving{
     padding-left:25px;
+    font-family: 'Tilt Neon', sans-serif;
+    position:sticky;
+
 }
 
 .naving:hover{
     font-size: large;
+    font-family: 'Tilt Neon', sans-serif;
 }
 
 
@@ -17,6 +26,8 @@
     text-align: center;
     font-family: 'Tilt Neon', sans-serif;
 }
+
+
 
 .headerText{
     font-family: 'Tilt Neon', sans-serif;
@@ -33,6 +44,37 @@
 
 
 }
+
+.headerText:hover{
+    font-family:fantasy;
+}
+
+.carousel{
+    padding:100px;
+
+}
+
+.carousel-item{
+    height:650px;
+    /* overflow:hidden; */
+    object-fit: cover;
+
+
+}
+
+.carcontrolprev{
+    left: 120px;
+}
+
+.carcontrolnex{
+    right:80px;
+}
+
+.cari{
+    object-position: top;
+
+}
+
 
 #logoimage{
     height:100px;
