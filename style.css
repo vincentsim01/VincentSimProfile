@@ -28,7 +28,7 @@
 #texthead{
 
 
-    animation: rotatelife linear 7000ms infinite;
+    animation: rotatelife linear 4000ms infinite;
 
 
 
@@ -357,16 +357,16 @@ img{
         transform:rotatey(0deg);
     }
     30%{
-        transform:rotatey(90deg);
+        transform:rotatey(45deg);
     }
     60%{
-        transform:rotatey(180deg);
+        transform:rotatey(90deg);
     }
     80%{
-        transform:rotatey(270deg);
+        transform:rotatey(45deg);
     }
     100%{
-        transform:rotatey(360deg);
+        transform:rotatey(0deg);
     }
 }
 
