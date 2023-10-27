@@ -18,6 +18,10 @@
 
 }
 
+header{
+    position:sticky;
+}
+
 #navcont1{
     display:inline-block;
 
