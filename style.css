@@ -1,17 +1,48 @@
+.navigatoring{
+    display:inline-block;
+    border-top:1px double black;
+    width:100%;
+}
+
 #theNav{
 
     padding-left:15px;
     font-family: 'Kanit', sans-serif;
-    border-top:1px double black;
+
     border-radius: 20px;
     box-shadow: lightblue 3px;
     padding-top:2%;
+    display:inline-block;
+
+}
+
+#navcont1{
+    display:inline-block;
+    border:1px solid;
+    width:29%;
+}
+
+#navcont2{
+    display:inline-block;
+    border:1px solid;
+    width:29%;
+}
+
+#theNav2{
+
+    padding-left:15px;
+    font-family: 'Kanit', sans-serif;
+
+    border-radius: 20px;
+    box-shadow: lightblue 3px;
+    padding-top:2%;
+    display:inline-block;
 
 }
 
 
 .naving{
-    padding-left:25px;
+    padding-left:10px;
     font-family: 'Kanit', sans-serif;
     position:sticky;
 
@@ -33,6 +64,10 @@
 .headerText{
     font-family: 'Kanit', sans-serif;
     font-size:xx-large;
+    display:inline-block;
+    margin-left:1%;
+    margin-right:1%;
+    border:1px solid;
 
     
 }
@@ -41,13 +76,25 @@
 
 
     animation: rotatelife linear 4000ms infinite;
+    display:inline-block;
+    width:39%;
 
 
 
 }
 
+#logoimage{
+    height:100px;
+    display:inline-block;
+
+
+
+}
+
+
 .headerText:hover{
     font-family: arial;
+    display:inline-block;
 }
 
 .carousel{
@@ -77,11 +124,6 @@
 }
 
 
-#logoimage{
-    height:100px;
-
-
-}
 
 
 
@@ -530,6 +572,25 @@ img{
 
 
 
+}
+
+@media(max-width:800px){
+    .naving{
+        display:none;
+    }
+
+    #navcont1{
+        display:none;
+    }
+
+    #navcont2{
+        display:none;
+    }
+
+    #texthead{
+        width:80%;
+        text-align: center;
+    }
 }
 
 
