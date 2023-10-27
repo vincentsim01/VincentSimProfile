@@ -38,10 +38,15 @@
 
 
             <div id="navcont1"><center><nav id="theNav" >
-                <span class="naving"><a href="#home">Home</a></span>
-                <span class="naving"><a href="#aboutMe">About Me</a></span>
-                <span class="naving"><a href="#skillSet">Skills</a></span>
-                </nav></center>
+                <div class="container-fluid">
+                    <div class="row">
+                        <span class="naving col-4"><a href="#home">Home</a></span>
+                        <span class="naving col-4"><a href="#aboutMe">About Me</a></span>
+                        <span class="naving col-4"><a href="#skillSet">Skills</a></span>
+                    </div>
+                </div>
+                    </nav></center>
+
             </div>
 
 
@@ -55,12 +60,16 @@
                     <div class="row">
 
                     <span class="naving col-3"><a href="#portfolio">Portfolio</a></span>
-                    <span class="naving col-3"><a href="#socialMedia">Let's Connect</a></span>
-                    <span class="naving col-3"><input type="textbox" id="searchbar"><span class="glyphicon glyphicon-search"></span>
+                    <span class="naving col-5"><a href="#socialMedia">Let's Connect</a></span>
+                    <span class="naving col-4"><input type="textbox" id="searchbar"><img id="searchicon" src="./Image/search.png"></span>
                 </div>
                 </div>
                 </nav></center>
             </div>
+
+            <button id="searchmobilecontainer" type="button" class="btn btn-default" aria-label="Left Align">
+                <img src="./Image/search.png" id="searchmobileicon">
+              </button>
 
         </div>
     </div>
@@ -69,15 +78,11 @@
    
     </header>
 
-    <!-- <div class="mobilemen mobilenone">
-        <div class="navingmobile"><a href="#home">Home</a></div>
-        <div class="navingmobile"><a href="#aboutMe">About Me</a></div>
-        <div class="navingmobile"><a href="#skillSet">Skills</a></div>
-        <div class="navingmobile"><a href="#portfolio">Portfolio</a></div>
-        <div class="navingmobile"><a href="#socialMedia">Let's Connect</a></div>
-    </div> -->
 
     <div id="mobilemen" class="mobilenone">
+        <div id="mobilemenuclosecontainer">
+            <button type="button" id="mobilemenuclosebutton"><img src="./Image/close2.png"></button>
+        </div>
         <div class="navingmobile"><a href="#home">Home</a></div>
         <div class="navingmobile"><a href="#aboutMe">About Me</a></div>
         <div class="navingmobile"><a href="#skillSet">Skills</a></div>

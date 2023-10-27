@@ -40,6 +40,10 @@ function burgertoggle(){
 
 }
 
+let mobilemenuclosebutton=document.getElementById("mobilemenuclosebutton");
+
+mobilemenuclosebutton.addEventListener("click",burgertoggle);
+
 
 
 /*

@@ -1,46 +1,93 @@
 .navigatoring{
     display:inline-block;
-    border-top:1px double black;
+
     width:100%;
+    position:sticky;
 }
 
 #theNav{
 
-    padding-left:15px;
+    padding-left:10px;
     font-family: 'Kanit', sans-serif;
-
     border-radius: 20px;
     box-shadow: lightblue 3px;
     padding-top:2%;
     display:inline-block;
 
+    text-align:center;
+
 }
 
 #navcont1{
     display:inline-block;
-    border:1px solid;
-    width:29%;
+
+    width:30%;
+
 }
 
 #navcont2{
     display:inline-block;
-    border:1px solid;
-    width:29%;
+
+    width:38%;
 }
 
 #burgercontainer{
-    width:9%;
+    width:11%;
     display:none;
+}
+
+#searchmobilecontainer{
+    display:none;
+    width:11%;
+
+}
+
+#mobilemenuclosecontainer{
+    text-align:right;
+    position:relative;
+    display:block;
+    top:-5%;
+    right:-5%;
+
+
+
+}
+
+#mobilemen{
+    border:1px solid;
+    font-family: 'Kanit', sans-serif;
+    padding:1%;
+    width:80%;
+    text-align: center;
+    border-radius:5px;
+
+}
+
+.navingmobile{
+    margin-top:1%;
+    margin-bottom:4%;
+    border-radius:30px;
+    border:1px ridge black;
+    background:white;
+}
+
+.navingmobile:hover{
+    transform:scale(1.1);
+}
+
+#mobilemenuclosebutton{
+    background-color: white;
+    border-radius: 100%;
+    border:0px;
+
+
 }
 
 .mobilenone{
     display:none;
 }
 
-#mobilemen{
-    border:1px solid;
 
-}
 
 #theNav2{
 
@@ -56,15 +103,26 @@
 
 
 .naving{
-    padding-left:10px;
+    padding-left:3px;
     font-family: 'Kanit', sans-serif;
     position:sticky;
 
+
 }
+
+
 
 .naving:hover{
     font-size: large;
     font-family: 'Kanit', sans-serif;
+}
+
+#searchbar{
+    width:40%;
+}
+
+#searchicon{
+    width:25px;
 }
 
 
@@ -81,20 +139,15 @@
     display:inline-block;
     margin-left:1%;
     margin-right:1%;
-    border:1px solid;
+
 
     
 }
 
 #texthead{
-
-
     animation: rotatelife linear 4000ms infinite;
     display:inline-block;
-    width:39%;
-
-
-
+    width:30%;
 }
 
 #logoimage{
@@ -588,7 +641,7 @@ img{
 
 }
 
-@media(max-width:800px){
+@media(max-width:950px){
     .naving{
         display:none;
     }
@@ -602,12 +655,18 @@ img{
     }
 
     #texthead{
-        width:80%;
+        width:75%;
         text-align: center;
     }
 
     #burgercontainer{
         display:inline-block;
+    }
+
+    #searchmobilecontainer{
+        display:inline-block;
+        
+    
     }
 }
 
