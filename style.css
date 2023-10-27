@@ -28,6 +28,20 @@
     width:29%;
 }
 
+#burgercontainer{
+    width:9%;
+    display:none;
+}
+
+.mobilenone{
+    display:none;
+}
+
+#mobilemen{
+    border:1px solid;
+
+}
+
 #theNav2{
 
     padding-left:15px;
@@ -590,6 +604,10 @@ img{
     #texthead{
         width:80%;
         text-align: center;
+    }
+
+    #burgercontainer{
+        display:inline-block;
     }
 }
 

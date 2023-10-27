@@ -27,6 +27,21 @@ changeImageButton.addEventListener("click",function(){
 
 
 });
+
+
+
+let burgercontainer=document.getElementById("burgercontainer");
+let mobilemen=document.getElementById("mobilemen");
+
+burgercontainer.addEventListener("click",burgertoggle);
+
+function burgertoggle(){
+    mobilemen.classList.toggle("mobilenone");
+
+}
+
+
+
 /*
 var secondMagicButton = document.getElementsByClassName("secondMagicButton");
 secondMagicButton.addEventListener("click", alert("secondMagicButton")
