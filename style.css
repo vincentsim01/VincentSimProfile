@@ -75,9 +75,48 @@
     transform:scale(1.1);
 }
 
+
+
 #mobilemenuclosebutton{
     background-color: white;
     border-radius: 100%;
+    border:0px;
+
+
+}
+
+#mobilesear{
+    text-align:right;
+    width:60%;
+    padding:5%;
+    border:1px solid;
+    border-radius:30px;
+    position:relative;
+    left:40%;
+}
+
+#searchlah{
+    background:green;
+    border-radius:30px;
+    color:white;
+    font-family: 'Kanit', sans-serif;
+}
+
+#searchmobiletextbox{
+    border-radius:30px;
+}
+
+#mobilesearhclosecontainer{
+    position:relative;
+    top:-40px;
+    right:-20px;
+    display:block;
+
+}
+
+#mobilesearchclose{
+    background:white;
+    border-radius:100%;
     border:0px;
 
 

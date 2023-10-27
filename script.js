@@ -44,6 +44,16 @@ let mobilemenuclosebutton=document.getElementById("mobilemenuclosebutton");
 
 mobilemenuclosebutton.addEventListener("click",burgertoggle);
 
+let searchmobilecontainer=document.getElementById("searchmobilecontainer");
+let mobilesear=document.getElementById("mobilesear");
+
+searchmobilecontainer.addEventListener("click",searchmobile);
+
+function searchmobile(){
+    mobilesear.classList.toggle("mobilenone");
+
+}
+
 
 
 /*
